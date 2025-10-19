@@ -18,8 +18,6 @@ let isLoggedIn = false //boolean
 // undefined => 
 // symbol => to find uniqueness mostly used in react js
 // object
-
-
 console.log(typeof null)
 // the type of the null is object - interview question
 console.log(typeof undefined)

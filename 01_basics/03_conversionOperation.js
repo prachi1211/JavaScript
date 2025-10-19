@@ -13,8 +13,7 @@ console.log(typeof stringNumber)
 //true => 1
 //false => 0 
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+
 
 // 1 => true; 0 => false
 // "" => false; 
@@ -41,3 +40,5 @@ console.log("1"+2+2)
 console.log(1+"2"+2)
 console.log(1+2+ "2")
 
+// refer ecma script for more info on conversion 
+// // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
