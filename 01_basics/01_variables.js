@@ -25,3 +25,11 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
   in block scope and functional scope
  */
 
+//   constants can not be changed
+//   variables can be changed
+// "" ''  ``  all are used to represent string
+// Table is used to represent data in table format
+
+/* If you just declare the variable without giving any value
+ then it is called undefined type
+*/
