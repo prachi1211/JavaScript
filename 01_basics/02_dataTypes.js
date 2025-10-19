@@ -1,3 +1,5 @@
+// Documentation recommended: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
 "use strict"; //treat all JS code as newer version 
 // alert(3+3) // we are using nodejs not browser
 
@@ -14,9 +16,10 @@ let isLoggedIn = false //boolean
 // boolean => true/false
 // null => standalone value
 // undefined => 
-// symbol => to find uniqueness
-
+// symbol => to find uniqueness mostly used in react js
 // object
+
+
 console.log(typeof null)
 // the type of the null is object - interview question
 console.log(typeof undefined)
