@@ -1,4 +1,7 @@
-// Primitive
+// There are 2 types of data types in javascript
+// javascript is a dynamically typed language means we dont have to specify data types
+//1. Primitive
+// Original reference of the data is not provided. Gives you a copy of the original data
 // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
 
@@ -6,27 +9,31 @@ const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = outsideTemp = null
-let userEmail;
+let userEmail; // undefined
 
 
-const id = Symbol("123")
+const id = Symbol("123") 
 const anotherId = Symbol('123')
 
 const bigNumber = 1232545455465655565n
 
-console.log(id === anotherId);
+console.log(id === anotherId); // false because symbol is unique
 
 
-// Non primitive or Reference Type
-
+// 2. Non primitive or Reference Type
+// Original reference of the data is provided. Gives you a reference to the original data
 // Array, Objects, Functions
 
+// Array Declaration
 const heros= ['a', 'b', 'c']
+
+// Object Declaration
 let myObj = {
     name: "prachi",
     age:  23,
 }
  
+// Fucntion Declaration
 const myFunction = function(){
     console.log("Hello, Prachi");
 }
