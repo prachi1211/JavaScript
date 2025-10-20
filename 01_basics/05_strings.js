@@ -4,7 +4,7 @@ const repoCount = 50
 // Method 1 but never used
 console.log(name + repoCount + " Value");
 
-// Method 2 Interpollation 
+// Method 2  String Interpollation
 console.log(`My name is ${name} and my repo count is ${repoCount}.`);
 
 const gameName = new String('khushi') // String object not a primitive // this is object
@@ -12,7 +12,7 @@ const gameName = new String('khushi') // String object not a primitive // this i
 console.log(gameName[0]);  //k
 console.log(gameName.__proto__);  //{}
 
-console.log(gameName.length);  //6
+console.log(gameName.length);  //6 
 console.log(gameName.toUpperCase);  // Funtion: toUpperCase
 console.log(gameName.toUpperCase());  //KHUSHI
 
