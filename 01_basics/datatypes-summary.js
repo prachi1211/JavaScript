@@ -44,8 +44,17 @@ const myFunction = function(){
 //  Heap memory (Non- Primitive) here everything is changed in the orignal
 
 // In stack basically copy is given of rthe object so the orignal value is never changed.
+
+// Example of Stack memory
+
+\
 let myYouTubename = 'prachipiyushbhaijethava'
-let anotherName = 'khushijethava'
+let anotherName = myYouTubename
+
+console.log(myYouTubename)
+console.log(anotherName)
+
+anotherName = 'khushijethava'
 
 console.log(myYouTubename)
 console.log(anotherName)
@@ -53,7 +62,10 @@ console.log(anotherName)
 // Here as you can see that the orignal value stays the same.
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // Non-primitive
-// for this we know that it will give the reference for the orignal valuse thus when you change it then the orignal value is also changed.
+// Example of Heap memory
+/* for this we know that it will give the reference for the orignal valuse 
+thus when you change it then the orignal value is also changed.
+*/
 let userOne ={
     email: "prachijethava@gmail.com",
     age: 22,
@@ -64,4 +76,6 @@ userTwo.email = "khushijethava@gmail.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
-// Here you can see that both the emails for the users are changed.
+/* Here you can see that both the emails for the users are changed.
+This is the heap memory thus will make changes in the orignal value as well.
+*/
