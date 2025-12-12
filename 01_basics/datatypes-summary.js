@@ -47,7 +47,6 @@ const myFunction = function(){
 
 // Example of Stack memory
 
-\
 let myYouTubename = 'prachipiyushbhaijethava'
 let anotherName = myYouTubename
 
