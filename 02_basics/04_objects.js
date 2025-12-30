@@ -70,3 +70,16 @@ console.log(Object.entries(user));
 // Checks whether that particular property exist or not.
 console.log(user.hasOwnProperty('isLoggedIn'));
 
+// Destructuring bery important for API and even while learning React:
+const course = {
+    coursename: "JavaScript",
+    price: "1000",
+    courseInstructor: "hitesh"
+}
+
+// Focused on Syntax only
+// course.courseInstructor
+
+const {courseInstructor} = course
+
+console.log(courseInstructor)
