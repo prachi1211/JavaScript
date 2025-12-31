@@ -63,12 +63,12 @@ const anotheruser =[
     }
 ]
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
 
 // Checks whether that particular property exist or not.
-console.log(user.hasOwnProperty('isLoggedIn'));
+// console.log(user.hasOwnProperty('isLoggedIn'));
 
 // Destructuring bery important for API and even while learning React:
 const course = {
@@ -80,6 +80,8 @@ const course = {
 // Focused on Syntax only
 // course.courseInstructor
 
-const {courseInstructor} = course
+// const {courseInstructor} = course
 
-console.log(courseInstructor)
+// console.log(courseInstructor)
+
+
